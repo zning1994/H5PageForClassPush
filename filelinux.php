@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Windows程序设计电子版报告与源码提交</title>
+    <title>Linux程序设计Key提交</title>
 
     <!-- Bootstrap core CSS -->
     <link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
@@ -61,20 +61,18 @@
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron">
     <div class="container">
-        <h2>Windows程序设计电子版报告与源码提交</h2>
+        <h2>Linux程序设计Key提交</h2>
     </div>
 </div>
 
 <div class="container theme-showcase" role="main">
 
-    <div class="alert alert-info" role="alert">
+    <!-- <div class="alert alert-info" role="alert">
             <strong><a href="jiaocheng.html">点击此处查看上传教程</a> </strong>
-        </div>
+        </div>-->
 
         <div class="alert alert-danger" role="alert">
-
-        <strong>注意: </strong> 提交的<b> 截止日期为:2016年6月18日24时整 </b>,请注意时间安排. 如有错误提交请于<b> 2016年6月18日19时-2016年6月19日21时 </b>联系网站管理员。联系方式：<a href="tel:+8613687671402">136-8767-1402</a>(手机浏览网页，点击电话可拨打)
-
+            <strong>注意: </strong> 提交的<b> 截止日期为:2016年6月11日20时整 </b>,请注意时间安排. 如有错误提交请于<b> 2016年6月11日22时前 </b>联系网站管理员。联系方式：<a href="tel:+8613687671402">136-8767-1402</a>(手机浏览网页，点击电话可拨打)
         </div>
 
     <div  class="jumbotron">
@@ -90,31 +88,14 @@
         	$stuname = $_POST["stuname"];
         	$xuehao =  $_POST["xuehao"];
         	$upfile = $_FILES ["upfile"];
-        	$filetype = "zip";
+        	$filetype = ".key";
         	//获取数组里面的值
         	$name = $upfile ["name"]; //上传文件的文件名
         	$type = $upfile ["type"]; //上传文件的类型
         	$size = $upfile ["size"]; //上传文件的大小
         	$tmp_name = $upfile ["tmp_name"]; //上传文件的临时存放路径
         	//判断是否为图片
-        	switch ($type) {
-        		case 'application/zip' :
-        			$okType = true;
-        			$filetype = ".zip";
-        			break;
-        		case 'application/octet-stream' :
-        			$okType = true;
-        			$filetype = ".rar";
-        			break;
-        		case 'image/jpg' :
-        			$okType = true;
-        			$filetype = ".jpg";
-        			break;
-        		case 'image/jpeg' :
-        			$okType = true;
-        			$filetype = ".jpg";
-        			break;
-        	}
+        	$okType = true;
 
         	$str = $xuehao . " " . $stuname . $filetype;
 
@@ -130,7 +111,7 @@
         		$error = $upfile ["error"]; //上传后系统返回的值
         		//把上传的临时文件移动到up目录下面
         		$pic = iconv("UTF-8","gb2312", $str);
-        		move_uploaded_file ( $tmp_name, 'up/' . $pic );
+        		move_uploaded_file ( $tmp_name, 'uplinux/' . $pic );
         		echo "<p><font size=\"+6\" color=\"#FF0000\"><h1>";
         		if ($error == 0) {
         			echo "文件上传成功！";
@@ -146,9 +127,9 @@
         			echo "上传文件大小为0";
         		}
         	} else {
-        		echo "请上传rar,zip格式的文件！";
+        		echo "请上传指定格式的文件！";
         	}
-        	echo "<a href=\"windows.html\">点击此处跳回前页</a></h1></font></p>";
+        	echo "<a href=\"linux.html\">点击此处跳回前页</a></h1></font></p>";
         }
         ?>
     </div>
