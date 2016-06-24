@@ -1,7 +1,7 @@
 <?php
     header("Content-Type:text/html; charset=utf-8");
 ?>
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta http-equiv="Content-Type"content="text/html; charset=utf-8">
