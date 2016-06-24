@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0390dca7-4f2a-4de1-bbd1-ff222fcbab3d" name="Default" comment="">
+    <list default="true" id="0390dca7-4f2a-4de1-bbd1-ff222fcbab3d" name="Default" comment="第二次更新Linux报告提交相关内容 2016-06-24 11:15:00">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filelinux.php" afterPath="$PROJECT_DIR$/filelinux.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filewindows.php" afterPath="$PROJECT_DIR$/filewindows.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/linux.html" afterPath="$PROJECT_DIR$/linux.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/windows.html" afterPath="$PROJECT_DIR$/windows.html" />
     </list>
     <ignored path="H5PageForClassPush.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="windows.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="windows.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/windows.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="101" column="111" selection-start-line="101" selection-start-column="111" selection-end-line="101" selection-end-column="111" />
+            <state relative-caret-position="182">
+              <caret line="117" column="49" selection-start-line="117" selection-start-column="49" selection-end-line="117" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -48,8 +50,8 @@
       <file leaf-file-name="linux.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linux.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="100" column="49" selection-start-line="100" selection-start-column="49" selection-end-line="100" selection-end-column="49" />
+            <state relative-caret-position="182">
+              <caret line="117" column="47" selection-start-line="117" selection-start-column="47" selection-end-line="117" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -58,18 +60,18 @@
       <file leaf-file-name="filewindows.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/filewindows.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="164" column="8" selection-start-line="164" selection-start-column="8" selection-end-line="164" selection-end-column="8" />
+            <state relative-caret-position="121">
+              <caret line="159" column="24" selection-start-line="159" selection-start-column="24" selection-end-line="159" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="filelinux.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="filelinux.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/filelinux.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1177">
-              <caret line="108" column="26" selection-start-line="108" selection-start-column="26" selection-end-line="108" selection-end-column="26" />
+            <state relative-caret-position="293">
+              <caret line="106" column="38" selection-start-line="106" selection-start-column="38" selection-end-line="106" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -94,9 +96,9 @@
         <option value="$PROJECT_DIR$/jiaocheng.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/linux.html" />
-        <option value="$PROJECT_DIR$/windows.html" />
-        <option value="$PROJECT_DIR$/filewindows.php" />
         <option value="$PROJECT_DIR$/filelinux.php" />
+        <option value="$PROJECT_DIR$/filewindows.php" />
+        <option value="$PROJECT_DIR$/windows.html" />
       </list>
     </option>
   </component>
@@ -276,7 +278,7 @@
       <workItem from="1465355255771" duration="1753000" />
       <workItem from="1466042509091" duration="966000" />
       <workItem from="1466158335124" duration="186000" />
-      <workItem from="1466736351084" duration="2973000" />
+      <workItem from="1466736351084" duration="3905000" />
     </task>
     <task id="LOCAL-00001" summary="2016-06-16 11:09:31">
       <created>1466046581465</created>
@@ -327,11 +329,18 @@
       <option name="project" value="LOCAL" />
       <updated>1466739143516</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="第二次更新Linux报告提交相关内容 2016-06-24 11:15:00">
+      <created>1466739671122</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1466739671122</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15866000" />
+    <option name="totallyTimeSpent" value="16798000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -340,7 +349,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14614774" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11643836" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37123287" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -390,7 +399,8 @@
     <MESSAGE value="更改PHP文件编码 2016-06-24 10:49:33" />
     <MESSAGE value="修改相关上传设置 2016-06-24 11:15:00" />
     <MESSAGE value="第一次更新Linux报告提交相关内容 2016-06-24 11:15:00" />
-    <option name="LAST_COMMIT_MESSAGE" value="第一次更新Linux报告提交相关内容 2016-06-24 11:15:00" />
+    <MESSAGE value="第二次更新Linux报告提交相关内容 2016-06-24 11:15:00" />
+    <option name="LAST_COMMIT_MESSAGE" value="第二次更新Linux报告提交相关内容 2016-06-24 11:15:00" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -561,22 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/linux.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="100" column="49" selection-start-line="100" selection-start-column="49" selection-end-line="100" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/windows.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="101" column="111" selection-start-line="101" selection-start-column="111" selection-end-line="101" selection-end-column="111" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-500">
@@ -585,18 +579,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/filewindows.php">
+    <entry file="file://$PROJECT_DIR$/linux.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="164" column="8" selection-start-line="164" selection-start-column="8" selection-end-line="164" selection-end-column="8" />
+        <state relative-caret-position="182">
+          <caret line="117" column="47" selection-start-line="117" selection-start-column="47" selection-end-line="117" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/filelinux.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1177">
-          <caret line="108" column="26" selection-start-line="108" selection-start-column="26" selection-end-line="108" selection-end-column="26" />
+        <state relative-caret-position="293">
+          <caret line="106" column="38" selection-start-line="106" selection-start-column="38" selection-end-line="106" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/filewindows.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="159" column="24" selection-start-line="159" selection-start-column="24" selection-end-line="159" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/windows.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="117" column="49" selection-start-line="117" selection-start-column="49" selection-end-line="117" selection-end-column="49" />
           <folding />
         </state>
       </provider>

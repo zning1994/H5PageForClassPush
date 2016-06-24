@@ -102,7 +102,7 @@
         	$type = $upfile ["type"]; //上传文件的类型
         	$size = $upfile ["size"]; //上传文件的大小
         	$tmp_name = $upfile ["tmp_name"]; //上传文件的临时存放路径
-        	//判断是否为图片
+        	//判断是否为文件类型
         	switch ($type) {
         		case 'application/zip' :
         			$okType = true;
@@ -112,13 +112,9 @@
         			$okType = true;
         			$filetype = ".rar";
         			break;
-        		case 'image/jpg' :
+        		case 'application/x-rar' :
         			$okType = true;
-        			$filetype = ".jpg";
-        			break;
-        		case 'image/jpeg' :
-        			$okType = true;
-        			$filetype = ".jpg";
+        			$filetype = ".rar";
         			break;
         	}
 

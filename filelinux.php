@@ -95,14 +95,22 @@
         	$stuname = $_POST["stuname"];
         	$xuehao =  $_POST["xuehao"];
         	$upfile = $_FILES ["upfile"];
-        	$filetype = ".key";
+        	$filetype = ".pdf";
         	//获取数组里面的值
         	$name = $upfile ["name"]; //上传文件的文件名
         	$type = $upfile ["type"]; //上传文件的类型
         	$size = $upfile ["size"]; //上传文件的大小
         	$tmp_name = $upfile ["tmp_name"]; //上传文件的临时存放路径
-        	//判断是否为图片
-        	$okType = true;
+        	//判断是否为指定类型文件: 文件类型记录如下
+        	//application/pdf
+        	//application/x-rar
+        	//application/octet-stream
+            switch ($type) {
+        		case 'application/pdf' :
+        			$okType = true;
+        			$filetype = ".pdf";
+        			break;
+        	}
 
         	$str = $xuehao . " " . $stuname . $filetype;
 
