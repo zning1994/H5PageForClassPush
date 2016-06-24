@@ -159,10 +159,10 @@
                      } else {
                         echo "上传文件大小为0";
                      }
-                     } else {
-                        echo "请上传rar,zip格式的文件！";
-                     }
                 }
+            } else {
+               echo "请上传rar,zip格式的文件！";
+        }
         	echo "<a href=\"windows.html\">点击此处跳回前页</a></h1></font></p>";
         }
         ?>
