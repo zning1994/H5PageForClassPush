@@ -1,15 +1,18 @@
-<!DOCTYPE html>
+<?php
+    header("Content-Type:text/html; charset=utf-8");
+?>
+!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="utf-8">
+    <meta http-equiv="Content-Type"content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- ����3��meta��ǩ*����*������ǰ�棬�κ��������ݶ�*����*������� -->
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Windows������Ƶ��Ӱ汨����Դ���ύ</title>
+    <title>Windows程序设计电子版报告与源码提交</title>
 
     <!-- Bootstrap core CSS -->
     <link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
@@ -34,19 +37,19 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="./">�ɼ�ͳ����</a>
+            <a class="navbar-brand" href="./">成绩统计网</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a href="./">��ҳ</a></li>
-                        <li><a href="http://smcm.cc">����SMCMCC</a></li>
-                        <li><a href="https://www.zning.net.cn" target="_blank">����������</a></li>
+                        <li><a href="./">首页</a></li>
+                        <li><a href="http://smcm.cc">返回SMCMCC</a></li>
+                        <li><a href="https://www.zning.net.cn" target="_blank">返回张宁网</a></li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">����<span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">更多<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://www.sdust.edu.cn" target="_blank">ɽ���Ƽ���ѧ</a></li>
+                                <li><a href="http://www.sdust.edu.cn" target="_blank">山东科技大学</a></li>
                                 <li role="separator" class="divider"></li>
-                                <li class="dropdown-header">������վ</li>
+                                <li class="dropdown-header">更多网站</li>
                                 <li><a href="https://www.google.com/ncr" target="_blank">Google</a></li>
                                 <li><a href="https://www.github.com" target="_blank">GitHub</a></li>
                                 <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
@@ -61,26 +64,26 @@
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron">
     <div class="container">
-        <h2>Windows������Ƶ��Ӱ汨����Դ���ύ</h2>
+        <h2>Windows程序设计电子版报告与源码提交</h2>
     </div>
 </div>
 
 <div class="container theme-showcase" role="main">
 
     <div class="alert alert-info" role="alert">
-            <strong><a href="jiaocheng.html">����˴��鿴�ϴ��̳�</a> </strong>
+            <strong><a href="jiaocheng.html">点击此处查看上传教程</a> </strong>
         </div>
 
         <div class="alert alert-danger" role="alert">
 
-        <strong>ע��: </strong> �ύ��<b> ��ֹ����Ϊ:2016��6��18��24ʱ�� </b>,��ע��ʱ�䰲��. ���д����ύ����<b> 2016��6��18��19ʱ-2016��6��19��21ʱ </b>��ϵ��վ����Ա����ϵ��ʽ��<a href="tel:+8613687671402">136-8767-1402</a>(�ֻ������ҳ������绰�ɲ���)
+        <strong>注意: </strong> 提交的<b> 截止日期为:2016年6月18日24时整 </b>,请注意时间安排. 如有错误提交请于<b> 2016年6月18日19时-2016年6月19日21时 </b>联系网站管理员。联系方式：<a href="tel:+8613687671402">136-8767-1402</a>(手机浏览网页，点击电话可拨打)
 
         </div>
 
     <div  class="jumbotron">
 
         <div class="page-header">
-                    <h1>ҳ����ʾ:</h1>
+                    <h1>页面提示:</h1>
          </div>
 
         <?php
@@ -91,12 +94,12 @@
         	$xuehao =  $_POST["xuehao"];
         	$upfile = $_FILES ["upfile"];
         	$filetype = "zip";
-        	//��ȡ���������ֵ
-        	$name = $upfile ["name"]; //�ϴ��ļ����ļ���
-        	$type = $upfile ["type"]; //�ϴ��ļ�������
-        	$size = $upfile ["size"]; //�ϴ��ļ��Ĵ�С
-        	$tmp_name = $upfile ["tmp_name"]; //�ϴ��ļ�����ʱ���·��
-        	//�ж��Ƿ�ΪͼƬ
+        	//获取数组里面的值
+        	$name = $upfile ["name"]; //上传文件的文件名
+        	$type = $upfile ["type"]; //上传文件的类型
+        	$size = $upfile ["size"]; //上传文件的大小
+        	$tmp_name = $upfile ["tmp_name"]; //上传文件的临时存放路径
+        	//判断是否为图片
         	switch ($type) {
         		case 'application/zip' :
         			$okType = true;
@@ -120,35 +123,35 @@
 
         	if ($okType) {
         		/**
-        		 * 0:�ļ��ϴ��ɹ�<br/>
-        		 * 1���������ļ���С����php.ini�ļ�������<br/>
-        		 * 2���������ļ��Ĵ�СMAX_FILE_SIZEѡ��ָ����ֵ<br/>
-        		 * 3���ļ�ֻ�в��ֱ��ϴ�<br/>
-        		 * 4��û���ļ����ϴ�<br/>
-        		 * 5���ϴ��ļ���СΪ0
+        		 * 0:文件上传成功<br/>
+        		 * 1：超过了文件大小，在php.ini文件中设置<br/>
+        		 * 2：超过了文件的大小MAX_FILE_SIZE选项指定的值<br/>
+        		 * 3：文件只有部分被上传<br/>
+        		 * 4：没有文件被上传<br/>
+        		 * 5：上传文件大小为0
         		 */
-        		$error = $upfile ["error"]; //�ϴ���ϵͳ���ص�ֵ
-        		//���ϴ�����ʱ�ļ��ƶ���upĿ¼����
+        		$error = $upfile ["error"]; //上传后系统返回的值
+        		//把上传的临时文件移动到up目录下面
         		$pic = iconv("UTF-8","gb2312", $str);
         		move_uploaded_file ( $tmp_name, 'up/' . $pic );
         		echo "<p><font size=\"+6\" color=\"#FF0000\"><h1>";
         		if ($error == 0) {
-        			echo "�ļ��ϴ��ɹ���";
+        			echo "文件上传成功！";
         		} elseif ($error == 1) {
-        			echo "�������ļ���С����php.ini�ļ�������";
+        			echo "超过了文件大小，在php.ini文件中设置";
         		} elseif ($error == 2) {
-        			echo "�������ļ��Ĵ�СMAX_FILE_SIZEѡ��ָ����ֵ";
+        			echo "超过了文件的大小MAX_FILE_SIZE选项指定的值";
         		} elseif ($error == 3) {
-        			echo "�ļ�ֻ�в��ֱ��ϴ�";
+        			echo "文件只有部分被上传";
         		} elseif ($error == 4) {
-        			echo "û���ļ����ϴ�";
+        			echo "没有文件被上传";
         		} else {
-        			echo "�ϴ��ļ���СΪ0";
+        			echo "上传文件大小为0";
         		}
         	} else {
-        		echo "���ϴ�rar,zip��ʽ���ļ���";
+        		echo "请上传rar,zip格式的文件！";
         	}
-        	echo "<a href=\"windows.html\">����˴�����ǰҳ</a></h1></font></p>";
+        	echo "<a href=\"windows.html\">点击此处跳回前页</a></h1></font></p>";
         }
         ?>
     </div>
@@ -156,7 +159,7 @@
     <hr>
 
     <footer>
-        <p>Copyright &copy; 2016.����ѧ�� All rights reserved. ³ICP��14014735��-3
+        <p>Copyright &copy; 2016.智凝学会 All rights reserved. 鲁ICP备14014735号-3
             <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1870283'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s96.cnzz.com/stat.php%3Fid%3D1870283' type='text/javascript'%3E%3C/script%3E"));</script>       </p>
     </footer>
 

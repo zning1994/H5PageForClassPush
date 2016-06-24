@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0390dca7-4f2a-4de1-bbd1-ff222fcbab3d" name="Default" comment="2016-06-16 11:09:31">
+    <list default="true" id="0390dca7-4f2a-4de1-bbd1-ff222fcbab3d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filelinux.php" afterPath="$PROJECT_DIR$/filelinux.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filewindows.php" afterPath="$PROJECT_DIR$/filewindows.php" />
@@ -37,21 +38,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="filewindows.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="filewindows.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/filewindows.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+            <state relative-caret-position="72">
+              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="filelinux.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="filelinux.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/filelinux.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -77,8 +78,8 @@
         <option value="$PROJECT_DIR$/windows.html" />
         <option value="$PROJECT_DIR$/jiaocheng.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/filewindows.php" />
         <option value="$PROJECT_DIR$/filelinux.php" />
+        <option value="$PROJECT_DIR$/filewindows.php" />
       </list>
     </option>
   </component>
@@ -258,7 +259,7 @@
       <workItem from="1465355255771" duration="1753000" />
       <workItem from="1466042509091" duration="966000" />
       <workItem from="1466158335124" duration="186000" />
-      <workItem from="1466736351084" duration="36000" />
+      <workItem from="1466736351084" duration="211000" />
     </task>
     <task id="LOCAL-00001" summary="2016-06-16 11:09:31">
       <created>1466046581465</created>
@@ -267,11 +268,18 @@
       <option name="project" value="LOCAL" />
       <updated>1466046581465</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2016-06-24 10:46:29">
+      <created>1466736396117</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1466736396117</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12929000" />
+    <option name="totallyTimeSpent" value="13104000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -326,7 +334,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2016-06-16 11:09:31" />
-    <option name="LAST_COMMIT_MESSAGE" value="2016-06-16 11:09:31" />
+    <MESSAGE value="2016-06-24 10:46:29" />
+    <option name="LAST_COMMIT_MESSAGE" value="2016-06-24 10:46:29" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -521,18 +530,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/filewindows.php">
+    <entry file="file://$PROJECT_DIR$/filelinux.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/filelinux.php">
+    <entry file="file://$PROJECT_DIR$/filewindows.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state relative-caret-position="72">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
           <folding />
         </state>
       </provider>
