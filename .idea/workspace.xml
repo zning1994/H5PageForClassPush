@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0390dca7-4f2a-4de1-bbd1-ff222fcbab3d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filelinux.php" afterPath="$PROJECT_DIR$/filelinux.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/filewindows.php" afterPath="$PROJECT_DIR$/filewindows.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jiaocheng.html" afterPath="$PROJECT_DIR$/jiaocheng.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/linux.html" afterPath="$PROJECT_DIR$/linux.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/windows.html" afterPath="$PROJECT_DIR$/windows.html" />
     </list>
     <ignored path="H5PageForClassPush.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,8 +27,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            <state relative-caret-position="108">
+              <caret line="75" column="12" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -291,7 +286,7 @@
       <workItem from="1466042509091" duration="966000" />
       <workItem from="1466158335124" duration="186000" />
       <workItem from="1466736351084" duration="4288000" />
-      <workItem from="1466744355108" duration="553000" />
+      <workItem from="1466744355108" duration="699000" />
     </task>
     <task id="LOCAL-00001" summary="2016-06-16 11:09:31">
       <created>1466046581465</created>
@@ -363,11 +358,18 @@
       <option name="project" value="LOCAL" />
       <updated>1466744673879</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="第四次更新Linux报告提交相关内容 2016-06-24 11:15:00">
+      <created>1466744917288</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1466744917288</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17734000" />
+    <option name="totallyTimeSpent" value="17880000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -675,8 +677,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        <state relative-caret-position="108">
+          <caret line="75" column="12" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
           <folding />
         </state>
       </provider>
