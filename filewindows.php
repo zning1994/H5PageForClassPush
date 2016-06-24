@@ -1,3 +1,7 @@
+//使用系统前务必检查上传文件夹是否为www用户读写权限
+//如果不是,则需要用下述命令进行修改:
+//chown -R www:www 需要上传文件夹路径
+
 <?php
     header("Content-Type:text/html; charset=utf-8");
 ?>
@@ -132,7 +136,8 @@
         		 */
         		$error = $upfile ["error"]; //上传后系统返回的值
         		//把上传的临时文件移动到up目录下面
-        		$pic = iconv("UTF-8","gb2312", $str);
+        		$pic = $str;
+                //$pic = iconv("UTF-8","gb2312", $str);
         		move_uploaded_file ( $tmp_name, 'up/' . $pic );
         		echo "<p><font size=\"+6\" color=\"#FF0000\"><h1>";
         		if ($error == 0) {
