@@ -1,8 +1,7 @@
-//使用系统前务必检查上传文件夹是否为www用户读写权限
-//如果不是,则需要用下述命令进行修改:
-//chown -R www:www 需要上传文件夹路径
-
 <?php
+    //使用系统前务必检查上传文件夹是否为www用户读写权限
+    //如果不是,则需要用下述命令进行修改:
+    //chown -R www:www 需要上传文件夹路径
     header("Content-Type:text/html; charset=utf-8");
 ?>
 <!DOCTYPE html>
