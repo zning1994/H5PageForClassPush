@@ -16,7 +16,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Linux程序设计电子版报告提交</title>
+    <title>电子商务论文电子版提交</title>
 
     <!-- Bootstrap core CSS -->
     <link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
@@ -71,7 +71,7 @@
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron">
     <div class="container">
-        <h2>Linux程序设计电子版报告提交</h2>
+        <h2>电子商务论文电子版提交</h2>
     </div>
 </div>
 
@@ -82,7 +82,7 @@
         </div>-->
 
         <div class="alert alert-danger" role="alert">
-            <strong>注意: </strong> 提交的<b> 截止日期为:2016年6月30日12时整 </b>,请注意时间安排. 如有错误提交请于<b> 2016年6月30日12时后 </b>联系网站管理员。联系方式：<a href="tel:+8613687671402">136-8767-1402</a>(手机浏览网页，点击电话可拨打)
+            <strong>注意: </strong> 提交的<b> 截止日期为:2016年10月31日12时整 </b>,请注意时间安排. 如有错误提交请于<b> 2016年10月31日12时后 </b>联系网站管理员。联系方式：<a href="tel:+8613687671402">136-8767-1402</a>(手机浏览网页，点击电话可拨打)
         </div>
 
     <div  class="jumbotron">
@@ -109,10 +109,22 @@
         	//application/x-rar
         	//application/octet-stream
             switch ($type) {
-        		case 'application/pdf' :
-        			$okType = true;
-        			$filetype = ".pdf";
-        			break;
+                case 'application/pdf' :
+                    $okType = true;
+                    $filetype = ".pdf";
+                    break;
+                case 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' :
+                    $okType = true;
+                    $filetype = ".docx";
+                    break;
+                case 'application/msword' :
+                    $okType = true;
+                    $filetype = ".doc";
+                    break;
+                case 'application/vnd.oasis.opendocument.text' :
+                    $okType = true;
+                    $filetype = ".odt";
+                    break;
         	}
 
         	$str = $xuehao . " " . $stuname . $filetype;
@@ -131,7 +143,7 @@
                 $pic = $str;
                 //$pic = iconv("UTF-8","gb2312", $str);
                 echo "<p><font size=\"+6\" color=\"#FF0000\"><h1>";
-                if (file_exists(”uplinux/” . $pic))
+                if (file_exists("uplinux/" . $pic))
                 {
                    echo $pic . "文件已经存在. 请联系管理员";
                 }
